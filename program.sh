@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-
+mkdir -p boxoutput
 echo 'Stage 1, extract ROIs'
 python reduce.py
 echo 'Stage 2, classify ROIs'
