@@ -15,7 +15,9 @@ gcc comes with gfortran and g++.
 
 Once this is done, the package can be compiled to a python module with numpy's f2py using:
 
-f2py -c -m <module name> impackage.f90
+f2py -c -m impackage impackage.f90
+
+If you use a mac (not ARM) then the compiled module is already available.
 
 The main program is run through the bash script program.sh. 
 
