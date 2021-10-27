@@ -19,7 +19,9 @@ Once this is done, the package can be compiled to a python module with numpy's f
 
 `f2py -c -m impackage impackage.f90`
 
-If you use a mac (not ARM) then the compiled module is already available.
+If you use a mac (not ARM) then the compiled module is already available. If needed, the other python libraries called can be installed through pip with:
+
+`pip install -r requirements.txt`
 
 The main program is run through the bash script program.sh. 
 
