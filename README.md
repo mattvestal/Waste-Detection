@@ -50,5 +50,5 @@ Classified ROIs
 
 Ideally the ROIs correctly determined to be false positives would be removed, although at this point that would most likely hinder the waste detection so they are left in. 
 
-The majority of images used were supplied by Goterra or taken from their website and we cannot thank them enough for their support in developing this software. 
+The majority of images used were supplied by Goterra or taken from their website and we cannot thank them enough for their support and enthusiasm in developing this software. 
 
