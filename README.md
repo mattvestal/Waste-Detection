@@ -1,6 +1,8 @@
 # Waste-Detection
 
-This is a program to detect and classify inorganic waste. The first section detects waste by returning areas with lots of white light through binary thresholding, and areas with a high concentration of edges. Plastic, glass, and metal are generally reflective whereas organic matter tends to not be. By thresholding with a high color value (ie a presence of all colors), then features such as a glare or reflections can be isolated. A high concentration of edges seems to be present in labels on plastic bottles and containers, so these areas are isolated too. The edge image and thresholded image are then combined to create our final binary mask. 
+This is a program to detect and classify inorganic waste, developed with support from the team at Goterra.
+
+The program works in two stages. The first section detects waste by returning areas with lots of white light through binary thresholding, and areas with a high concentration of edges. Plastic, glass, and metal are generally reflective whereas organic matter tends to not be. By thresholding with a high color value (ie a presence of all colors), then features such as a glare or reflections can be isolated. A high concentration of edges seems to be present in labels on plastic bottles and containers, so these areas are isolated too. The edge image and thresholded image are then combined to create our final binary mask. 
 
 
 To run the program a fortran compiler needs to be installed. On mac/linux this is fairly straight forward and gfortran can be installed from the commandline. To do this on a mac, Xcode command line tools needs to be installed and is most easily installed with homebrew. On linux it looks something like:
@@ -48,4 +50,5 @@ Classified ROIs
 
 Ideally the ROIs correctly determined to be false positives would be removed, although at this point that would most likely hinder the waste detection so they are left in. 
 
+The majority of images used were supplied by Goterra or taken from their website and we cannot thank them enough for their support in developing this software. 
 
