@@ -21,7 +21,9 @@ If you use a mac (not ARM) then the compiled module is already available.
 
 The main program is run through the bash script program.sh. 
 
-To change the input file, change the variables in the script globals.py, which is a script that only conatins the path for the input file. Various stages of the threshold mask can be saved and shown in the reduce.py script. They are commented out. It is recommended that this script is run on its own without the bash script if you want to save/see the stages of the binary mask. reduce.py also contains the parameters for the image processing. Since the method is not super robust, it is recommended that these parameters are changed depending on the perspective/lighting/viewpoinnt/camera distance/etc. At the moment this is not ideal but could make for a useful GUI app later...
+To change the input file, change the variables in the script globals.py, which is a script that only conatins the path for the input file. Other images are abvailbe in the folder called testimages. To add new images simply just put them into this folder. At the moment impackage only supports RGB images. 
+
+Various stages of the threshold mask can be saved and shown in the reduce.py script. They are commented out. It is recommended that this script is run on its own without the bash script if you want to save/see the stages of the binary mask. reduce.py also contains the parameters for the image processing. Since the method is not super robust, it is recommended that these parameters are changed depending on the perspective/lighting/viewpoinnt/camera distance/etc. At the moment this is not ideal but could make for a useful GUI app later...
   
 The script NN.py is the neural network used to classify the ROIs. It is not spectacular and more work needs to be done to improve it. 
 
