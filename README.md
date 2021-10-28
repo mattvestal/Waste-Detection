@@ -48,7 +48,7 @@ When the image of classified ROIs apears, press the 0 key to close. Then the use
 Extracted ROIs (pre-classification)
 
 ![boxesClass](https://user-images.githubusercontent.com/55775010/138995540-dad0b001-69eb-4430-a667-97e07a1f18c1.jpg)
-Classified ROIs
+Classified ROIs. Blue is organic and red is inorganic.
 
 Ideally the ROIs correctly determined to be false positives would be removed, although at this point that would most likely hinder the waste detection so they are left in. 
 
