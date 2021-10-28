@@ -4,7 +4,7 @@ mkdir -p boxoutput
 echo 'Stage 1, extract ROIs'
 python reduce.py
 echo 'Stage 2, classify ROIs'
-python NNtest.py  -W ignore #Tensorflow may raise some warnings if you arent using GPU
+python classify.py  -W ignore #Tensorflow may raise some warnings if you arent using GPU
 
 
 #boxoutput is a temporary file where all the ROIs are stored
