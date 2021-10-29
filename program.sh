@@ -25,6 +25,5 @@ else
     cd boxoutput
     rm *
     cd ..
+    rm CoordsROI.txt
 fi
-
-rm CoordsROI.txt
